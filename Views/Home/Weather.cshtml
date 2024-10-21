@@ -1,0 +1,8 @@
+﻿@model WeatherInfo
+
+<div class="container">
+    <h2>Weather in @Model.City</h2>
+    <p>Temperature: @Model.Temperature</p>
+    <p>Description: @Model.Description</p>
+    <a asp-action="Index" class="btn btn-primary">Back to selection</a>
+</div>

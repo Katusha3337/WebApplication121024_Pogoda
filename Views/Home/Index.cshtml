@@ -1,0 +1,25 @@
+﻿@model CitySelectionModel
+
+<div class="container">
+    <h2>Select City</h2>
+    <form asp-action="Index" method="post">
+        <div class="form-group">
+            <select asp-for="City" class="form-control">
+                <option value="">Select a city</option>
+                <option value="Одесса">Одесса</option>
+                <option value="Черноморск">Черноморск</option>
+                <option value="Николаев">Николаев</option>
+                <option value="Киев">Киев</option>
+                <option value="Днепр">Днепр</option>
+            </select>
+            <span asp-validation-for="City" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Get Weather</button>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication121024_Pogoda", "WebApplication121024_Pogoda.csproj", "{4E92158B-4AA2-455E-81F6-E8C5C0339C93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E92158B-4AA2-455E-81F6-E8C5C0339C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E92158B-4AA2-455E-81F6-E8C5C0339C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E92158B-4AA2-455E-81F6-E8C5C0339C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E92158B-4AA2-455E-81F6-E8C5C0339C93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2711D16F-13DA-4E0E-BA07-629688F928A3}
+	EndGlobalSection
+EndGlobal
